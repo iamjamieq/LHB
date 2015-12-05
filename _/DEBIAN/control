@@ -1,0 +1,10 @@
+Package: com.iamjamieq.lockhomebutton
+Name: LockHomeButton
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Locks your home button. 
+Maintainer: 
+Author: iamjamieq <jameslitvak@gmail.com>
+Section: Tweaks
+Version: 0.0.1-4
+Installed-Size: 41
