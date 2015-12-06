@@ -1,7 +1,9 @@
-include theos/makefiles/common.mk
+ARCHS = armv7 arm64 
+
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = LockHomeButtonToggle
-LockHomeButtonToggle_FILES = Switch.x
+LockHomeButtonToggle_FILES = Switch.xm
 LockHomeButtonToggle_FRAMEWORKS = UIKit
 LockHomeButtonToggle_LIBRARIES = flipswitch
 LockHomeButtonToggle_INSTALL_PATH = /Library/Switches

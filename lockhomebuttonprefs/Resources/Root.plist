@@ -9,20 +9,6 @@
 			<string>PSGroupCell</string>
 		</dict>
 		<dict>
-			<key>PostNotification</key>
-			<string>com.iamjamieq.lockhomebutton.preferencechanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>com.iamjamieq.lockhomebutton</string>
-			<key>key</key>
-			<string>suppress</string>
-			<key>label</key>
-			<string>Lock Home Button</string>
-		</dict>
-		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 		</dict>

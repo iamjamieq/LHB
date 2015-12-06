@@ -1,4 +1,6 @@
-include theos/makefiles/common.mk
+ARCHS = armv7 arm64 
+
+include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LockHomeButton
 LockHomeButton_FILES = Tweak.xm
