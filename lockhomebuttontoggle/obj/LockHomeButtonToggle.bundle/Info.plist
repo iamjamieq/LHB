@@ -5,9 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>LockHomeButtonPrefs</string>
+	<string>LockHomeButtonToggle</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.iamjamieq.lockhomebuttonprefs</string>
+	<string>com.iamjamieq.lockhomebuttontoggle</string>
+	<key>CFBundleDisplayName</key>
+	<string>LockHomeButtonToggle</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -18,7 +20,13 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>MinimumOSVersion</key>
+	<string>3.0</string>
 	<key>NSPrincipalClass</key>
-	<string>NTPrefsRootListController</string>
+	<string>LockHomeButtonToggleSwitch</string>
+	<key>alternate-action-url</key>
+	<string>prefs:</string>
 </dict>
 </plist>
