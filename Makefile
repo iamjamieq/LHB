@@ -1,4 +1,5 @@
 ARCHS = armv7 arm64 
+export THEOS=/opt/theos
 
 include $(THEOS)/makefiles/common.mk
 

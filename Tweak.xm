@@ -1,10 +1,38 @@
 static BOOL suppress = YES;
 
 %hook SpringBoard
+-(void)_handleMenuButtonEvent {
+	if(suppress)
+		return ;
+	else %orig;
+}
+
 -(void)_menuButtonWasHeld {
 	if(suppress)
 		return ;
 	else %orig;
+}
+
+-(void)handleMenuDoubleTap {
+	if(suppress)
+		return ;
+	else %orig;
+}
+%end
+
+%hook SBControlCenterController 
+-(id)init {
+	if(suppress)
+		nil;
+	return %orig;
+}
+%end
+
+%hook SBNotificationCenterController 
+-(id)init {
+	if(suppress)
+		nil;
+	return %orig;
 }
 %end
 
